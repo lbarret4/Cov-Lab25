@@ -47,7 +47,7 @@ class App extends Component {
             return (
 
                 <div className="container">
-                    <div class="jumbotron bg-warning d-flex justify-content-center">
+                    <div className="jumbotron bg-warning d-flex justify-content-center">
                         <img src={logo} alt="Logo of Studio Ghibli " />
                     </div>
                     <div className="card-columns">
@@ -59,10 +59,10 @@ class App extends Component {
             return (
 
                 <div className="container">
-                    <div class="jumbotron bg-warning d-flex justify-content-center">
+                    <div className="jumbotron bg-warning d-flex justify-content-center">
                         <img src={logo} alt="Logo of Studio Ghibli " />
                     </div>
-                    <button type="button" class="btn btn-dark mb-2" onClick={this.handleLoadFilms}>Load Films</button>
+                    <button type="button" className="btn btn-dark mb-2" onClick={this.handleLoadFilms}>Load Films</button>
                 </div>
 
 
