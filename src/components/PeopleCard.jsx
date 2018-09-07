@@ -11,9 +11,9 @@ let PeopleCard = (props) => {
             <div className="card-footer  d-flex justify-content-between align-items-center">
                 Gender: {props.gender} <span>Age: <span className="badge badge-primary badge-pill text-center"> {props.age} </span></span>
             </div>
-            <ul class="list-group list-group-flush ">
-                <li class="list-group-item  bg-warning">Eye Color: {props.eyes}</li>
-                <li class="list-group-item bg-warning">Hair Color: {props.hair}</li>
+            <ul className="list-group list-group-flush ">
+                <li className="list-group-item  bg-warning">Eye Color: {props.eyes}</li>
+                <li className="list-group-item bg-warning">Hair Color: {props.hair}</li>
             </ul>
             <div className="card-body">
                 <a href={url} className="card-link text-body">{props.name}'s JSON </a>
